@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-torchrun --nproc_per_node 5 train.py
+OMP_NUM_THREADS=4 torchrun --nproc_per_node 2 train.py
