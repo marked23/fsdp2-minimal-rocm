@@ -1,0 +1,6 @@
+[tool.basedpyright]
+strictNoneChecking = false
+typeCheckingMode = "basic"
+diagnosticMode = "workspace"
+useLibraryCodeForTypes = true
+venvPath = ".venv"
